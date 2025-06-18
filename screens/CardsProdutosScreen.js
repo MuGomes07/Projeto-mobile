@@ -9,7 +9,7 @@ const produtos = [
     { id: '1', nome: 'Produto 1', imagem: imagemProduto1, preco: 'R$750,00'},
     { id: '2', nome: 'Produto 2', imagem: imagemProduto2, preco: 'R$350,00'},
     { id: '3', nome: 'Produto 3', imagem: imagemProduto3, preco: 'R$399,90'},
-];
+]
 
 const CardsProdutosScreen = ({ navigation }) => {
     const renderProduto = ({ item }) => (

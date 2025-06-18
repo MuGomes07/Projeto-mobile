@@ -18,7 +18,7 @@ const AboutScreen = () => {
     <View style={styles.container}>
       <Text style={styles.title}>Meu Aplicativo</Text>
       <Text style={styles.infoText}>versão 1.0.0</Text>
-      <Text style={styles.infoText}>Desenvolvido por: Ana Gabryelli</Text>
+      <Text style={styles.infoText}>Desenvolvido por: Murillo Gomes</Text>
 
 
       <TouchableOpacity style={styles.button} onPress={handleOpenWebsite}>
@@ -31,7 +31,7 @@ const AboutScreen = () => {
       </TouchableOpacity>
 
 
-      <Text style={styles.footer}>@ 2025 Ana Gabryelli</Text>
+      <Text style={styles.footer}>@ 2025 Murillo Gomes</Text>
     </View>
   );
 };
